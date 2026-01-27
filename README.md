@@ -40,8 +40,18 @@ LockIn is a modern, user-friendly to-do list application designed to enhance pro
    ```bash
    npm install
    ```
+3. Set environment variables
 
-3. Start the development server:
+    The Lock-In backend is hosted at:
+    https://lockin-hpk6.onrender.com
+
+    In the frontend folder, create a new environment file (e.g. .env).
+
+    Add the following value to the file:
+
+    **IP=https://lockin-hpk6.onrender.com**
+
+4. Start the development server:
    ```bash
    npx expo start
    ```
